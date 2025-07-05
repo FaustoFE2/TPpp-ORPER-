@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ORPER - Organización Personal</title>
+    <!-- Carga de Tailwind CSS para estilos -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Carga de la fuente 'Lora' desde Google Fonts para un estilo más elegante -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* Configuración de la fuente 'Lora' como principal */
+        body {
+            font-family: 'Lora', serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 min-h-screen flex flex-col items-center justify-center p-4">
+    <div class="max-w-4xl w-full bg-white rounded-lg shadow-xl p-8 space-y-8">
+        <!-- Sección de Bienvenida -->
+        <header class="text-center">
+            <h1 class="text-5xl font-bold text-gray-800 mb-4 rounded-md">
+                ¡Bienvenido a ORPER!
+            </h1>
+            <p class="text-xl text-gray-600">
+                Tu aplicación de Organización Personal definitiva.
+            </p>
+        </header>
+
+        <!-- Sección de Tarjetas de Información -->
+        <section class="grid md:grid-cols-2 gap-6">
+            <!-- Tarjeta: Quiénes Somos  -->
+            <div class="bg-gray-700 text-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+                <h2 class="text-3xl font-bold mb-3 rounded-md">¿Quiénes Somos?</h2>
+                <p class="text-lg">
+                    Somos un equipo apasionado por la eficiencia y la productividad, dedicados a crear herramientas que simplifiquen tu vida diaria. Creemos que una buena organización es clave para alcanzar tus metas.
+                </p>
+            </div>
+
+            <!-- Tarjeta: De Qué Trata la App  -->
+            <div class="bg-gray-700 text-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+                <h2 class="text-3xl font-bold mb-3 rounded-md">¿De que trata la App?</h2>
+                <p class="text-lg">
+                    ORPER es una aplicación intuitiva diseñada para ayudarte a gestionar tus tareas, proyectos, notas y horarios de manera efectiva. Optimiza tu tiempo y reduce el estrés con nuestras herramientas personalizables.
+                </p>
+            </div>
+
+            <!-- Tarjeta: Para qué sirve la app (Fundamentación) -->
+            <div class="bg-gray-700 text-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 md:col-span-2">
+                <h2 class="text-3xl font-bold mb-3 rounded-md">¿Para qué sirve la app?</h2>
+                <p class="text-lg">
+                    ORPER es una app de organización personal pensada como proyecto de vida. Su objetivo es ayudar a las personas a ordenar su día a día mediante herramientas como calendario, recordatorios, notas, rutinas de gimnasio y una calculadora de gastos mensuales. A diferencia de otras aplicaciones, que ofrecen estas funciones por separado, ORPER reúne todo en un solo lugar, simplificando la organización y evitando tener que usar múltiples apps a la vez.
+                </p>
+            </div>
+
+            <!-- Tarjeta: Cómo surgió la idea de la app -->
+            <div class="bg-gray-700 text-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+                <h2 class="text-3xl font-bold mb-3 rounded-md">¿Cómo surgió la idea de la app?</h2>
+                <p class="text-lg">
+                    Surge desde la mirada de estudiantes que entendemos que el desorden genera malestar, y que organizarse es clave para vivir mejor.
+                </p>
+            </div>
+
+            <!-- Tarjeta: Conclusión -->
+            <div class="bg-gray-700 text-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
+                <h2 class="text-3xl font-bold mb-3 rounded-md">Conclusión</h2>
+                <p class="text-lg">
+                    Con ORPER queremos fomentar hábitos saludables de planificación y mostrar que la tecnología, usada con propósito, puede ser una gran aliada para mejorar nuestra calidad de vida.
+                </p>
+            </div>
+        </section>
+
+        <!-- Sección de Botón "Nosotros" -->
+        <section class="text-center mt-8">
+            <a href="nosotros.html" class="inline-block bg-gray-700 hover:bg-gray-800 text-white font-bold py-3 px-8 rounded-full shadow-lg transition-colors duration-300">
+                Nosotros
+            </a>
+        </section>
+    </div>
+</body>
+</html>

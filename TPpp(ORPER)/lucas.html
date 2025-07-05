@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucas Gonzalez - ORPER</title>
+    <!-- Carga de Tailwind CSS para estilos -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Carga de la fuente 'Lora' desde Google Fonts para un estilo más elegante -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* Configuración de la fuente 'Lora' como principal */
+        body {
+            font-family: 'Lora', serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 min-h-screen flex flex-col items-center justify-center p-4">
+    <div class="max-w-4xl w-full bg-white rounded-lg shadow-xl p-8 space-y-8">
+        <!-- Sección de Título del Perfil -->
+        <header class="text-center">
+            <h1 class="text-5xl font-bold text-gray-800 mb-4 rounded-md">
+                Lucas Gonzalez
+            </h1>
+            <p class="text-xl text-gray-600">
+                Desarrollador Frontend y Apasionado por la UX
+            </p>
+        </header>
+
+        <!-- Sección de Detalles del Perfil -->
+        <section class="grid md:grid-cols-1 gap-6">
+            <!-- Tarjeta: Rol dentro del equipo -->
+            <div class="bg-gray-700 text-white p-6 rounded-lg shadow-md">
+                <h2 class="text-3xl font-bold mb-3 rounded-md">Rol en ORPER</h2>
+                <p class="text-lg">
+                    Desarrollador Frontend: Mi principal enfoque es asegurar que la interfaz de usuario de ORPER sea intuitiva, atractiva y fácil de usar. Me encargo de traducir los diseños en código funcional y responsivo.
+                </p>
+            </div>
+
+            <!-- Tarjeta: Breve descripción (perfil técnico y humano) -->
+            <div class="bg-gray-700 text-white p-6 rounded-lg shadow-md">
+                <h2 class="text-3xl font-bold mb-3 rounded-md">Sobre mí</h2>
+                <p class="text-lg">
+                    Desde que descubrí el mundo del desarrollo web, me fascinó cómo se puede dar vida a las ideas a través del código. Me especializo en crear experiencias de usuario fluidas y visualmente agradables, siempre buscando la forma más eficiente de implementar nuevas funcionalidades. Fuera del código, soy una persona curiosa y me encanta aprender cosas nuevas, especialmente si implican un reto creativo. Disfruto trabajando en equipo, aportando ideas y buscando soluciones colaborativas para que el resultado final sea algo de lo que todos estemos orgullosos.
+                </p>
+            </div>
+
+            <!-- Tarjeta: Enlace al CV personal -->
+            <div class="bg-gray-700 text-white p-6 rounded-lg shadow-md flex flex-col items-center text-center">
+                <h2 class="text-3xl font-bold mb-3 rounded-md">Mi CV Personal</h2>
+                <p class="text-lg mb-4">
+                    Si quieres saber más sobre mi experiencia y proyectos, puedes consultar mi currículum vitae.
+                </p>
+                <!-- El enlace ha sido actualizado para dirigir a cvlucas.html -->
+                <a href="cvlucas.html" target="_blank" class="inline-block bg-gray-800 hover:bg-gray-900 text-white font-bold py-2 px-6 rounded-full shadow-lg transition-colors duration-300">
+                    Ver CV
+                </a>
+            </div>
+        </section>
+
+        <!-- Botón para volver a la página de Nosotros -->
+        <section class="text-center mt-8">
+            <a href="nosotros.html" class="inline-block bg-gray-700 hover:bg-gray-800 text-white font-bold py-3 px-8 rounded-full shadow-lg transition-colors duration-300">
+                Volver a Nosotros
+            </a>
+        </section>
+    </div>
+</body>
+</html>

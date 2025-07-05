@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thiago Granero - ORPER</title>
+    <!-- Carga de Tailwind CSS para estilos -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Carga de la fuente 'Lora' desde Google Fonts para un estilo más elegante -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* Configuración de la fuente 'Lora' como principal */
+        body {
+            font-family: 'Lora', serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 min-h-screen flex flex-col items-center justify-center p-4">
+    <div class="max-w-4xl w-full bg-white rounded-lg shadow-xl p-8 space-y-8">
+        <!-- Sección de Título del Perfil -->
+        <header class="text-center">
+            <h1 class="text-5xl font-bold text-gray-800 mb-4 rounded-md">
+                Thiago Granero
+            </h1>
+            <p class="text-xl text-gray-600">
+                Arquitecto de Software y Optimizador de Procesos
+            </p>
+        </header>
+
+        <!-- Sección de Detalles del Perfil -->
+        <section class="grid md:grid-cols-1 gap-6">
+            <!-- Tarjeta: Rol dentro del equipo -->
+            <div class="bg-gray-700 text-white p-6 rounded-lg shadow-md">
+                <h2 class="text-3xl font-bold mb-3 rounded-md">Rol en ORPER</h2>
+                <p class="text-lg">
+                    Arquitecto de Software y Optimizador de Procesos: Me encargo de diseñar la estructura interna de la aplicación, asegurando que sea robusta, escalable y eficiente. También busco formas de mejorar los flujos de trabajo del equipo.
+                </p>
+            </div>
+
+            <!-- Tarjeta: Breve descripción (perfil técnico y humano) -->
+            <div class="bg-gray-700 text-white p-6 rounded-lg shadow-md">
+                <h2 class="text-3xl font-bold mb-3 rounded-md">Sobre mí</h2>
+                <p class="text-lg">
+                  Siempre me ha gustado entender cómo funcionan las cosas por dentro y, sobre todo, cómo hacer que funcionen mejor. En el equipo de ORPER, mi cabeza está en la estructura, en asegurarme de que la app sea sólida y que pueda crecer sin problemas. Disfruto mucho desarmando los desafíos complejos y encontrando la forma más inteligente de armarlos de nuevo. Fuera de lo técnico, soy bastante organizado y me encanta cuando las cosas tienen un plan claro. Creo que con buena estrategia y un poco de constancia, cualquier proyecto puede llegar lejos.
+                </p>
+            </div>
+
+            <!-- Tarjeta: Enlace al CV personal -->
+            <div class="bg-gray-700 text-white p-6 rounded-lg shadow-md flex flex-col items-center text-center">
+                <h2 class="text-3xl font-bold mb-3 rounded-md">Mi CV Personal</h2>
+                <p class="text-lg mb-4">
+                    Para más detalles sobre mi podes consultar mi currículum vitae.
+                </p>
+                <!-- El enlace ha sido configurado para dirigir a cvthiago.html -->
+                <a href="cvthiago.html" target="_blank" class="inline-block bg-gray-800 hover:bg-gray-900 text-white font-bold py-2 px-6 rounded-full shadow-lg transition-colors duration-300">
+                    Ver CV
+                </a>
+            </div>
+        </section>
+
+        <!-- Botón para volver a la página de Nosotros -->
+        <section class="text-center mt-8">
+            <a href="nosotros.html" class="inline-block bg-gray-700 hover:bg-gray-800 text-white font-bold py-3 px-8 rounded-full shadow-lg transition-colors duration-300">
+                Volver a Nosotros
+            </a>
+        </section>
+    </div>
+</body>
+</html>
